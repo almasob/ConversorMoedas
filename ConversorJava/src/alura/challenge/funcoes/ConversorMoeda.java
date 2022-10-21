@@ -25,7 +25,7 @@ public class ConversorMoeda {
 	
 	public void euroReal(double valor) {
 		double resultado = valor * euro;
-		JOptionPane.showMessageDialog(null, "Você tem R$" + formato.format(resultado));
+		JOptionPane.showMessageDialog(null, "Você tem €" + formato.format(resultado));
 	}
 	
 	public void realEuro(double valor) {
